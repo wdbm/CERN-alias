@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=1.0
+Name=Chrome
+GenericName=Web Browser
+Comment=Access the Internet
+Exec=google-chrome
+Terminal=false
+Icon=/usr/share/ucom/CERN-alias/icons/Chrome.svg
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito
+Comment[en_US]=
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/opt/google/chrome/google-chrome
+TargetEnvironment=Unity
+
+[NewIncognito Shortcut Group]
+Name=New Incognito Window
+Exec=/opt/google/chrome/google-chrome --incognito
+TargetEnvironment=Unity

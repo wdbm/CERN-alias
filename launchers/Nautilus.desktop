@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Nautilus
+Comment=Access and organize files
+Keywords=folder;manager;explore;disk;filesystem;
+Exec=nautilus --new-window %U
+Icon=/usr/share/ucom/CERN-alias/icons/file.svg
+Terminal=false
+Type=Application
+StartupNotify=true
+Actions=Window;
+X-Unity-IconBackgroundColor=#af4853
+X-Ubuntu-Gettext-Domain=nautilus
+
+[Desktop Action Window]
+Name=Open a New Window
+Exec=nautilus --new-window
+OnlyShowIn=Unity;

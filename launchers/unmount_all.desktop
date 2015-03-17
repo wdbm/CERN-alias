@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=truecrypt -d
+Icon=/usr/share/ucom/CERN-alias/icons/lock.svg
+Name=unmount_all

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xournal
+Exec=xournal
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ucom/CERN-alias/icons/notes.svg

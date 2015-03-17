@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=screenshot
+Exec=gnome-screenshot --interactive
+Terminal=false
+Type=Application
+Icon=/usr/share/ucom/CERN-alias/icons/camera.svg

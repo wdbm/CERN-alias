@@ -1,0 +1,29 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Thunderbird
+Comment=Send and receive mail with Thunderbird
+GenericName=Mail Client
+Keywords=Email;E-mail;Newsgroup;Feed;RSS
+Exec=thunderbird %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ucom/CERN-alias/icons/Thunderbird.svg
+Categories=Application;Network;Email;
+MimeType=x-scheme-handler/mailto;application/x-xpinstall;
+StartupNotify=true
+Actions=Compose;Contacts
+
+Name[en_GB]=Thunderbird
+
+[Desktop Action Compose]
+Name=Compose New Message
+Exec=thunderbird -compose
+OnlyShowIn=Messaging Menu;Unity;
+
+[Desktop Action Contacts]
+Name=Contacts
+Exec=thunderbird -addressbook
+OnlyShowIn=Messaging Menu;Unity;

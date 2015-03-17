@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=terminal
+Exec=gnome-terminal
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ucom/CERN-alias/icons/terminal.svg
