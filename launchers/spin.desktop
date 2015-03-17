@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=spin
-Exec=python /home/wbm/Dropbox/Public/programs/spin/code/spin.py
+Exec=spin.py
 Terminal=false
 Type=Application
 Icon=/usr/share/ucom/CERN-alias/icons/spin.svg
