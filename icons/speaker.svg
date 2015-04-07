@@ -53,12 +53,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
       <stop
-         stop-color="#405a80"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop7" />
       <stop
          offset="1"
-         stop-color="#47648e"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop9" />
     </linearGradient>
@@ -104,19 +104,19 @@
     <g
        clip-path="url(#clipPath-161053353)"
        id="g57">
-      <!-- color: #47648e -->
+      <!-- color: #3861aa -->
       <g
          id="g59">
         <path
            d="m 12.719 20 l 1.563 0 c 0.395 0 0.719 0.352 0.719 0.785 l 0 6.43 c 0 0.434 -0.324 0.785 -0.719 0.785 l -1.563 0 c -0.398 0 -0.719 -0.352 -0.719 -0.785 l 0 -6.43 c 0 -0.434 0.32 -0.785 0.719 -0.785 m 0 0"
-           fill="#f88653"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path61" />
         <path
            d="m 13.91 20.637 l 8.09 -7.637 l 0 9 l 2 2 l -2 2 l 0 9 l -8.121 -7.375 m 0.031 -6.988"
-           fill="#f88653"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -126,7 +126,7 @@
            transform="matrix(3.543307,0,0,3.543307,-0.567047,-0.421825)"
            stroke-opacity="1"
            fill="none"
-           stroke="#f88653"
+           stroke="#3861aa"
            stroke-linejoin="round"
            stroke-linecap="butt"
            stroke-width="0.589"
@@ -137,7 +137,7 @@
            transform="matrix(3.543307,0,0,3.543307,-0.567047,-0.421825)"
            stroke-opacity="1"
            fill="none"
-           stroke="#f88653"
+           stroke="#3861aa"
            stroke-linejoin="round"
            stroke-linecap="butt"
            stroke-width="0.589"
@@ -148,7 +148,7 @@
            transform="matrix(3.543307,0,0,3.543307,-0.567047,-0.421825)"
            stroke-opacity="1"
            fill="none"
-           stroke="#f88653"
+           stroke="#3861aa"
            stroke-linejoin="round"
            stroke-linecap="butt"
            stroke-width="0.589"
