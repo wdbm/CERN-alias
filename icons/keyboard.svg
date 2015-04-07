@@ -25,7 +25,7 @@
   </metadata>
   <sodipodi:namedview
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#3861aa"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -52,12 +52,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
       <stop
-         stop-color="#5e6670"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop7" />
       <stop
          offset="1"
-         stop-color="#67707b"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop9" />
     </linearGradient>
@@ -69,7 +69,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path14" />
       </g>
     </clipPath>
@@ -81,7 +81,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path19" />
       </g>
     </clipPath>
@@ -93,7 +93,7 @@
        fill="url(#linearGradient3764)"
        fill-opacity="1"
        id="path31"
-       style="fill:#0055a0;fill-opacity:1" />
+       style="fill:#3861aa;fill-opacity:1" />
   </g>
   <g
      id="g33" />
@@ -104,13 +104,13 @@
        clip-path="url(#clipPath-572739784)"
        id="g85"
        style="fill:#ffffff">
-      <!-- color: #67707b -->
+      <!-- color: #3861aa -->
       <g
          id="g87"
          style="fill:#ffffff">
         <path
            d="m 8 13.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -118,7 +118,7 @@
            style="fill:#ffffff" />
         <path
            d="m 14 13.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -126,7 +126,7 @@
            style="fill:#ffffff" />
         <path
            d="m 20 13.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -134,7 +134,7 @@
            style="fill:#ffffff" />
         <path
            d="m 26 13.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -142,7 +142,7 @@
            style="fill:#ffffff" />
         <path
            d="m 32 13.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -150,7 +150,7 @@
            style="fill:#ffffff" />
         <path
            d="m 38 13.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -158,7 +158,7 @@
            style="fill:#ffffff" />
         <path
            d="m 8 19.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -166,7 +166,7 @@
            style="fill:#ffffff" />
         <path
            d="m 14 19.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -174,7 +174,7 @@
            style="fill:#ffffff" />
         <path
            d="m 20 19.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -182,7 +182,7 @@
            style="fill:#ffffff" />
         <path
            d="m 26 19.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -190,7 +190,7 @@
            style="fill:#ffffff" />
         <path
            d="m 32 19.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -198,7 +198,7 @@
            style="fill:#ffffff" />
         <path
            d="m 38 19.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -206,7 +206,7 @@
            style="fill:#ffffff" />
         <path
            d="m 8 25.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -214,7 +214,7 @@
            style="fill:#ffffff" />
         <path
            d="m 14 25.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -222,7 +222,7 @@
            style="fill:#ffffff" />
         <path
            d="m 20 25.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -230,7 +230,7 @@
            style="fill:#ffffff" />
         <path
            d="m 26 25.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -238,7 +238,7 @@
            style="fill:#ffffff" />
         <path
            d="m 32 25.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -246,7 +246,7 @@
            style="fill:#ffffff" />
         <path
            d="m 38 25.996 l 2 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -2 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -254,7 +254,7 @@
            style="fill:#ffffff" />
         <path
            d="m 14 31.996 l 20 0 c 0.551 0 1 0.449 1 1 l 0 2 c 0 0.555 -0.449 1 -1 1 l -20 0 c -0.551 0 -1 -0.445 -1 -1 l 0 -2 c 0 -0.551 0.449 -1 1 -1 m 0 0"
-           fill="#ececeb"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"

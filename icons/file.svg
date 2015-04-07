@@ -26,7 +26,7 @@
   </metadata>
   <sodipodi:namedview
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#3861aa"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -53,12 +53,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
       <stop
-         stop-color="#eb9437"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop7" />
       <stop
          offset="1"
-         stop-color="#ed9d49"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop9" />
     </linearGradient>
@@ -70,7 +70,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path14" />
       </g>
     </clipPath>
@@ -82,7 +82,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path19" />
       </g>
     </clipPath>
@@ -94,7 +94,7 @@
        fill="url(#linearGradient3764)"
        fill-opacity="1"
        id="path31"
-       style="fill:#0055a0;fill-opacity:1" />
+       style="fill:#3861aa;fill-opacity:1" />
   </g>
   <g
      id="g33" />
@@ -103,7 +103,7 @@
     <g
        clip-path="url(#clipPath-241572310)"
        id="g51">
-      <!-- color: #ed9d49 -->
+      <!-- color: #3861aa -->
       <g
          id="g53">
         <path
@@ -112,7 +112,7 @@
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
-           fill="#ececec"
+           fill="#ffffff"
            style="fill:#ffffff" />
       </g>
     </g>

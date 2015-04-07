@@ -26,7 +26,7 @@
   </metadata>
   <sodipodi:namedview
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#3861aa"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -53,12 +53,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
       <stop
-         stop-color="#333"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop7" />
       <stop
          offset="1"
-         stop-color="#3d3d3d"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop9" />
     </linearGradient>
@@ -70,7 +70,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path14" />
       </g>
     </clipPath>
@@ -82,20 +82,20 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path19" />
       </g>
     </clipPath>
   </defs>
   <g
      id="g29"
-     style="fill:#0055a0;fill-opacity:1">
+     style="fill:#3861aa;fill-opacity:1">
     <path
        d="m 24 1 c 12.703 0 23 10.297 23 23 c 0 12.703 -10.297 23 -23 23 -12.703 0 -23 -10.297 -23 -23 0 -12.703 10.297 -23 23 -23 z"
        fill="url(#linearGradient3764)"
        fill-opacity="1"
        id="path31"
-       style="fill:#0055a0;fill-opacity:1" />
+       style="fill:#3861aa;fill-opacity:1" />
   </g>
   <g
      id="g33" />
@@ -104,33 +104,33 @@
     <g
        clip-path="url(#clipPath-653257352)"
        id="g57">
-      <!-- color: #3d3d3d -->
+      <!-- color: #3861aa -->
       <g
          id="g59">
         <path
            d="m 21.703 26.738 l -5.125 6.832 c 2.051 1.586 4.629 2.531 7.426 2.531 c 2.715 0 5.223 -0.902 7.246 -2.414 l -5.125 -6.953 c -1.027 1.199 -3.254 1.078 -4.418 0 m -0.004 0.004"
-           fill="#f84545"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path61" />
         <path
            d="m 26.445 23.816 c 0 1.367 -1.109 2.473 -2.477 2.473 c -1.367 0 -2.473 -1.109 -2.473 -2.473 c 0 -1.371 1.109 -2.477 2.473 -2.477 c 1.371 0 2.477 1.109 2.477 2.477 m 0 0"
-           fill="#ffc800"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path63" />
         <path
            d="m 27.535 12.426 l -2.27 7.836 c 1.414 0.242 2.621 2.254 2.359 3.707 l 8.48 0.031 c 0 -5.457 -3.609 -10.06 -8.57 -11.578 m 0 0.004"
-           fill="#f84545"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path65" />
         <path
            d="m 20.496 12.395 c -4.934 1.492 -8.539 6.05 -8.602 11.457 l 8.277 0.027 c -0.27 -1.488 1.152 -3.191 2.59 -3.621 m -2.266 -7.863"
-           fill="#f84545"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
@@ -140,7 +140,7 @@
            transform="matrix(3.543307,0,0,3.543307,0,0)"
            stroke-opacity="1"
            fill="none"
-           stroke="#ffc800"
+           stroke="#ffffff"
            stroke-linejoin="miter"
            stroke-linecap="butt"
            stroke-width="0.564"

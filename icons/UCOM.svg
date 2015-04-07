@@ -11,7 +11,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="UCOM_1.svg">
+   sodipodi:docname="UCOM.svg">
   <metadata
      id="metadata65">
     <rdf:RDF>
@@ -26,7 +26,7 @@
   </metadata>
   <sodipodi:namedview
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#3861aa"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -38,7 +38,7 @@
      id="namedview63"
      showgrid="false"
      inkscape:zoom="9.8333335"
-     inkscape:cx="49.450743"
+     inkscape:cx="34.196506"
      inkscape:cy="25.424341"
      inkscape:window-x="65"
      inkscape:window-y="24"
@@ -54,12 +54,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
       <stop
-         stop-color="#575757"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop7" />
       <stop
          offset="1"
-         stop-color="#616161"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop9" />
     </linearGradient>
@@ -71,7 +71,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path14" />
       </g>
     </clipPath>
@@ -83,18 +83,18 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path19" />
       </g>
     </clipPath>
   </defs>
   <g
      id="g29"
-     style="fill:#0055a0;fill-opacity:1">
+     style="fill:#3861aa;fill-opacity:1">
     <path
        d="m 24 1 c 12.703 0 23 10.297 23 23 c 0 12.703 -10.297 23 -23 23 -12.703 0 -23 -10.297 -23 -23 0 -12.703 10.297 -23 23 -23 z"
        id="path31"
-       style="fill:#0055a0;fill-opacity:1"
+       style="fill:#3861aa;fill-opacity:1"
        fill-opacity="1"
        fill="url(#linearGradient3764)" />
   </g>
@@ -114,13 +114,13 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="7.423728"
+     x="10.57627"
      y="27.864407"
      id="text4175"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan4177"
-       x="7.423728"
+       x="10.57627"
        y="27.864407"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">UCOM</tspan></text>
 </svg>

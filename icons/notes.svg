@@ -26,7 +26,7 @@
   </metadata>
   <sodipodi:namedview
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#3861aa"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -53,12 +53,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
       <stop
-         stop-color="#32a8ce"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop7" />
       <stop
          offset="1"
-         stop-color="#41afd2"
+         stop-color="#3861aa"
          stop-opacity="1"
          id="stop9" />
     </linearGradient>
@@ -70,7 +70,7 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path14" />
       </g>
     </clipPath>
@@ -82,20 +82,20 @@
         <path
            d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
            transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
+           fill="#3861aa"
            id="path19" />
       </g>
     </clipPath>
   </defs>
   <g
      id="g29"
-     style="fill:#0055a0;fill-opacity:1">
+     style="fill:#3861aa;fill-opacity:1">
     <path
        d="m 24 1 c 12.703 0 23 10.297 23 23 c 0 12.703 -10.297 23 -23 23 -12.703 0 -23 -10.297 -23 -23 0 -12.703 10.297 -23 23 -23 z"
        fill="url(#linearGradient3764)"
        fill-opacity="1"
        id="path31"
-       style="fill:#0055a0;fill-opacity:1" />
+       style="fill:#3861aa;fill-opacity:1" />
   </g>
   <g
      id="g33" />
@@ -104,75 +104,75 @@
     <g
        clip-path="url(#clipPath-461194074)"
        id="g67">
-      <!-- color: #41afd2 -->
+      <!-- color: #3861aa -->
       <g
          id="g69">
         <path
            d="m 14 12 l 20 0 c 1.105 0 2 0.895 2 2 l 0 20 c 0 1.105 -0.895 2 -2 2 l -20 0 c -1.105 0 -2 -0.895 -2 -2 l 0 -20 c 0 -1.105 0.895 -2 2 -2 m 0 0"
-           fill="#fff"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path71" />
         <path
            d="m 14 12 c -1.109 0 -2 0.891 -2 2 l 0 20 c 0 1.109 0.891 2 2 2 l 10 0 l 0 -24 m -10 0"
-           fill="#fbebcf"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path73" />
         <path
            d="m 14 12 c -1.109 0 -2 0.891 -2 2 l 0 20 c 0 1.109 0.891 2 2 2 l 1 0 c -1.109 0 -2 -0.891 -2 -2 l 0 -20 c 0 -1.109 0.891 -2 2 -2 m -1 0"
-           fill="#fff"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path75" />
         <path
            d="m 33 12 c 1.109 0 2 0.891 2 2 l 0 20 c 0 1.109 -0.891 2 -2 2 l 1 0 c 1.109 0 2 -0.891 2 -2 l 0 -20 c 0 -1.109 -0.891 -2 -2 -2 m -1 0"
-           fill="#fbebcf"
+           fill="#ffffff"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="1"
            id="path77" />
         <path
            d="m 15 14 l 7 0 l 0 2 l -7 0 m 0 -2"
-           fill="#2d2d2d"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="0.4"
            id="path79" />
         <path
            d="m 26 32 l 7 0 l 0 2 l -7 0 m 0 -2"
-           fill="#2d2d2d"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="0.4"
            id="path81" />
         <path
            d="m 15 19 l 18 0 l 0 1 l -18 0 m 0 -1"
-           fill="#2d2d2d"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="0.4"
            id="path83" />
         <path
            d="m 15 22 l 18 0 l 0 1 l -18 0 m 0 -1"
-           fill="#2d2d2d"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="0.4"
            id="path85" />
         <path
            d="m 15 25 l 18 0 l 0 1 l -18 0 m 0 -1"
-           fill="#2d2d2d"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="0.4"
            id="path87" />
         <path
            d="m 15 28 l 18 0 l 0 1 l -18 0 m 0 -1"
-           fill="#2d2d2d"
+           fill="#3861aa"
            stroke="none"
            fill-rule="nonzero"
            fill-opacity="0.4"
@@ -201,62 +201,62 @@
      id="path4231"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 15.037193,14.990227 0,-0.96875 3.46875,0 3.46875,0 0,0.96875 0,0.96875 -3.46875,0 -3.46875,0 0,-0.96875 z"
      id="path4233"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 15.037193,19.490227 0,-0.46875 4.5,0 4.5,0 0,0.46875 0,0.46875 -4.5,0 -4.5,0 0,-0.46875 z"
      id="path4235"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 24.037193,19.490227 0,-0.46875 4.46875,0 4.46875,0 0,0.46875 0,0.46875 -4.46875,0 -4.46875,0 0,-0.46875 z"
      id="path4237"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 23.974693,22.490227 0,-0.46875 4.5,0 4.5,0 0,0.46875 0,0.46875 -4.5,0 -4.5,0 0,-0.46875 z"
      id="path4239"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 15.037193,22.490227 0,-0.46875 4.46875,0 4.46875,0 0,0.46875 0,0.46875 -4.46875,0 -4.46875,0 0,-0.46875 z"
      id="path4241"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 15.037193,25.490227 0,-0.46875 4.5,0 4.5,0 0,0.46875 0,0.46875 -4.5,0 -4.5,0 0,-0.46875 z"
      id="path4243"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 24.037193,25.490227 0,-0.46875 4.46875,0 4.46875,0 0,0.46875 0,0.46875 -4.46875,0 -4.46875,0 0,-0.46875 z"
      id="path4245"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 23.974693,28.490227 0,-0.46875 4.5,0 4.5,0 0,0.46875 0,0.46875 -4.5,0 -4.5,0 0,-0.46875 z"
      id="path4247"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 15.037193,28.490227 0,-0.46875 4.46875,0 4.46875,0 0,0.46875 0,0.46875 -4.46875,0 -4.46875,0 0,-0.46875 z"
      id="path4249"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 26.037193,32.990227 0,-0.96875 3.46875,0 3.46875,0 0,0.96875 0,0.96875 -3.46875,0 -3.46875,0 0,-0.96875 z"
      id="path4251"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 16.754324,15.997911 c 0.963925,-0.0011 2.538925,-0.0011 3.5,0 0.961075,0.0011 0.172409,0.002 -1.752591,0.002 -1.925,0 -2.711334,-8.94e-4 -1.747409,-0.002 z"
      id="path4253"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0055a0;fill-opacity:1"
+     style="fill:#3861aa;fill-opacity:1"
      d="m 15.005639,14.999864 0,-0.996094 3.496094,0 3.496093,0 0,0.996094 0,0.996093 -3.496093,0 -3.496094,0 0,-0.996093 z m 6.96875,-0.0078 0,-0.972656 -3.46875,0 -3.46875,0 0,0.972656 0,0.972656 3.46875,0 3.46875,0 0,-0.972656 z"
      id="path4255"
      inkscape:connector-curvature="0" />
