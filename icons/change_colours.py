@@ -34,13 +34,13 @@
 """
 
 name    = "change_colors"
-version = "2015-04-15T1745Z"
+version = "2015-04-15T1908Z"
 
 import os
 
 def main():
 
-    _color_1 = "#000000"
+    _color_1 = "#ffffff"
     _color_2 = "#3861aa"
 
     color_1 = raw_input(
