@@ -1,34 +1,40 @@
 - launchers
-   - ATLAS_meetings
-      - command: /usr/bin/google-chrome http://cern.ch/go/PM9N
-      - icon: /usr/share/ucom/CERN-alias/icons/ATLAS.svg
-   - Chrome
-      - command: google-chrome
-      - icon: /usr/share/ucom/CERN-alias/icons/Chrome.svg
-   - Nautilus
-      - command: nautilus --new-window %U
-      - icon: /usr/share/ucom/CERN-alias/icons/file.svg
-   - terminal
-      - command: gnome-terminal
-      - icon: /usr/share/ucom/CERN-alias/icons/terminal.svg
-   - Geany
-      - command: geany %F
-      - icon: /usr/share/ucom/CERN-alias/icons/Geany.svg
-   - screenshot
-      - command: gnome-screenshot --interactive
-      - icon: /usr/share/ucom/CERN-alias/icons/camera.svg
-   - Thunderbird
-      - command: thunderbird %u
-      - icon: /usr/share/ucom/CERN-alias/icons/Thunderbird.svg
-   - Skype_setup
-      - command: bash -c "/usr/bin/skype & /usr/bin/skype-call-recorder"
-      - icon: /usr/share/ucom/CERN-alias/icons/Skype.svg
-   - color_night
-      - command: bash -c "redshift -o -t 5000:5000 -l 0.0:0.0 &> /dev/null"
-      - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
-   - color_red
-      - command: bash -c "redshift -o -t 1000:1000 -l 0.0:0.0 &> /dev/null"
-      - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
-   - color_normal
-      - command: bash -c "redshift -x &> /dev/null"
-      - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+    - ATLAS_meetings
+        - command: /usr/bin/google-chrome http://cern.ch/go/PM9N
+        - icon: /usr/share/ucom/CERN-alias/icons/ATLAS.svg
+    - Chrome
+        - command: google-chrome
+        - icon: /usr/share/ucom/CERN-alias/icons/Chrome.svg
+    - Nautilus
+        - command: nautilus --no-desktop
+        - icon: /usr/share/ucom/CERN-alias/icons/file.svg
+    - ranger
+        - command: gnome-terminal -x ranger
+        - icon: /usr/share/ucom/CERN-alias/icons/gears.svg
+    - terminal
+        - command: gnome-terminal
+        - icon: /usr/share/ucom/CERN-alias/icons/terminal.svg
+    - Geany
+        - command: geany %F
+        - icon: /usr/share/ucom/CERN-alias/icons/Geany.svg
+    - screenshot
+        - command: gnome-screenshot --interactive
+        - icon: /usr/share/ucom/CERN-alias/icons/camera.svg
+    - Thunderbird
+        - command: thunderbird %u
+        - icon: /usr/share/ucom/CERN-alias/icons/Thunderbird.svg
+    - Skype_setup
+        - command: bash -c "/usr/bin/skype & /usr/bin/skype-call-recorder"
+        - icon: /usr/share/ucom/CERN-alias/icons/Skype.svg
+    - color_night
+        - command: bash -c "redshift -o -t 5000:5000 -l 0.0:0.0 &> /dev/null"
+        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+    - color_red
+        - command: bash -c "redshift -o -t 1000:1000 -l 0.0:0.0 &> /dev/null"
+        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+    - color_normal
+        - command: bash -c "redshift -x &> /dev/null"
+        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+    - cmus
+        - command: gnome-terminal -x cmus
+        - icon: /usr/share/ucom/CERN-alias/icons/speaker.svg
