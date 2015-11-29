@@ -1,8 +1,8 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Type=Application
 Name=Geany
 Exec=geany %F
 Icon=/usr/share/ucom/CERN-alias/icons/Geany.svg
 Terminal=false
+Type=Application

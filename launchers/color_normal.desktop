@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=color_normal
+Exec=bash -c "redshift -x &> /dev/null"
+Icon=/usr/share/ucom/CERN-alias/icons/eye.svg
+Terminal=false
+Type=Application

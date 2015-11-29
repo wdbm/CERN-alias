@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=color_night
+Exec=bash -c "redshift -o -t 5000:5000 -l 0.0:0.0 &> /dev/null"
+Icon=/usr/share/ucom/CERN-alias/icons/eye.svg
+Terminal=false
+Type=Application

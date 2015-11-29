@@ -1,6 +1,8 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
-Type=Application
-Terminal=false
+Name=unmount_all
 Exec=truecrypt -d
 Icon=/usr/share/ucom/CERN-alias/icons/lock.svg
-Name=unmount_all
+Terminal=false
+Type=Application

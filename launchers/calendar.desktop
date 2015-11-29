@@ -1,8 +1,9 @@
 #!/usr/bin/env xdg-open
+
 [Desktop Entry]
-Version=1.0
+Encoding=UTF-8
 Name=calendar
 Exec=/usr/bin/google-chrome https://www.google.com/calendar
-Terminal=false
 Icon=/usr/share/ucom/CERN-alias/icons/time.svg
+Terminal=false
 Type=Application

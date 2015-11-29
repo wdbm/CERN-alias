@@ -1,6 +1,9 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
-Type=Application
-Terminal=false
-Exec=python2 /usr/share/pyshared/youtube_dl_gui/__main__.py
+Encoding=UTF-8
 Name=download_media
+Exec=python2 /usr/share/pyshared/youtube_dl_gui/__main__.py
 Icon=/usr/share/ucom/CERN-alias/icons/arrow_down.svg
+Terminal=false
+Type=Application

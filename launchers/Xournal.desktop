@@ -1,8 +1,10 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
 Encoding=UTF-8
 Name=Xournal
 Exec=xournal
+Icon=/usr/share/ucom/CERN-alias/icons/notes.svg
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/usr/share/ucom/CERN-alias/icons/notes.svg
