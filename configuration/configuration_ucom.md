@@ -3,7 +3,7 @@
         - command: google-chrome
         - icon: /usr/share/ucom/CERN-alias/icons/Chrome.svg
     - Nautilus
-        - command: nautilus --no-desktop
+        - command: pcmanfm
         - icon: /usr/share/ucom/CERN-alias/icons/file.svg
     - terminal
         - command: gnome-terminal
