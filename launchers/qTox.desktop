@@ -3,7 +3,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=qTox
-Exec=qTox
+Exec=qtox
 Icon=/usr/share/ucom/CERN-alias/icons/Tox.svg
 Terminal=false
 X-MultipleArgs=false
