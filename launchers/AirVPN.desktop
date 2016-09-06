@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=AirVPN
+Exec=/usr/bin/airvpn
+Icon=/usr/share/ucom/CERN-alias/icons/cloud.svg
+Terminal=false
+Type=Application
