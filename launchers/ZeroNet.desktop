@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=ZeroNet
+Exec=ZeroNet.sh
+Icon=/usr/share/ucom/CERN-alias/icons/ZeroNet.svg
+Terminal=true
+Type=Application
