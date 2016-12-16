@@ -1,0 +1,28 @@
+- launchers
+    - Chrome
+        - command: google-chrome
+        - icon: /usr/share/ucom/CERN-alias/icons/Chrome.svg
+    - PCManFM
+        - command: pcmanfm
+        - icon: /usr/share/ucom/CERN-alias/icons/file.svg
+    - terminal
+        - command: gnome-terminal
+        - icon: /usr/share/ucom/CERN-alias/icons/terminal.svg
+    - Geany
+        - command: geany %F
+        - icon: /usr/share/ucom/CERN-alias/icons/Geany.svg
+    - screenshot
+        - command: gnome-screenshot --interactive
+        - icon: /usr/share/ucom/CERN-alias/icons/camera.svg
+    - AirVPN
+        - command: /usr/bin/airvpn
+        - icon: /usr/share/ucom/CERN-alias/icons/cloud.svg
+    - color_night
+        - command: bash -c "redshift -o -t 5000:5000 -l 0.0:0.0 &> /dev/null"
+        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+    - color_red
+        - command: bash -c "redshift -o -t 1000:1000 -l 0.0:0.0 &> /dev/null"
+        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+    - color_normal
+        - command: bash -c "redshift -x &> /dev/null"
+        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg

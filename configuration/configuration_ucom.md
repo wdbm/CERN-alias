@@ -1,28 +1,19 @@
 - launchers
     - Chrome
-        - command: google-chrome
-        - icon: /usr/share/ucom/CERN-alias/icons/Chrome.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/Chrome.desktop
     - Nautilus
-        - command: pcmanfm
-        - icon: /usr/share/ucom/CERN-alias/icons/file.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/Nautilus.desktop
     - terminal
-        - command: gnome-terminal
-        - icon: /usr/share/ucom/CERN-alias/icons/terminal.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/terminal.desktop
     - Geany
-        - command: geany %F
-        - icon: /usr/share/ucom/CERN-alias/icons/Geany.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/Geany.desktop
     - screenshot
-        - command: gnome-screenshot --interactive
-        - icon: /usr/share/ucom/CERN-alias/icons/camera.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/screenshot.desktop
     - AirVPN
-        - command: /usr/bin/airvpn
-        - icon: /usr/share/ucom/CERN-alias/icons/cloud.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/AirVPN.desktop
     - color_night
-        - command: bash -c "redshift -o -t 5000:5000 -l 0.0:0.0 &> /dev/null"
-        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/color_night.desktop
     - color_red
-        - command: bash -c "redshift -o -t 1000:1000 -l 0.0:0.0 &> /dev/null"
-        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/color_red.desktop
     - color_normal
-        - command: bash -c "redshift -x &> /dev/null"
-        - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
+        - desktop entry: /usr/share/ucom/CERN-alias/launchers/color_normal.desktop
