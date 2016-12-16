@@ -14,9 +14,9 @@
     - screenshot
         - command: gnome-screenshot --interactive
         - icon: /usr/share/ucom/CERN-alias/icons/camera.svg
-    - Skype_setup
-        - command: bash -c "/usr/bin/skype & /usr/bin/skype-call-recorder"
-        - icon: /usr/share/ucom/CERN-alias/icons/Skype.svg
+    - AirVPN
+        - command: /usr/bin/airvpn
+        - icon: /usr/share/ucom/CERN-alias/icons/cloud.svg
     - color_night
         - command: bash -c "redshift -o -t 5000:5000 -l 0.0:0.0 &> /dev/null"
         - icon: /usr/share/ucom/CERN-alias/icons/eye.svg
