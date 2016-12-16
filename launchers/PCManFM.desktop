@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=PCManFM
+Exec=pcmanfm
+Icon=/usr/share/ucom/CERN-alias/icons/file.svg
+Terminal=false
+Type=Application
