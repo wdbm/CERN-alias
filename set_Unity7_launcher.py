@@ -44,10 +44,11 @@ options:
     --addlauncher            add launcher
     --removelauncher         remove launcher
     --inspectlaunchers       inspect current launchers
+    --clearlaunchers         clear current launchers
 """
 
 name    = "set_Unity7_launcher"
-version = "2017-02-02T1639Z"
+version = "2017-02-02T1938Z"
 logo    = None
 
 import docopt
@@ -63,7 +64,10 @@ def main(options):
     add_launcher      = options["--addlauncher"]
     remove_launcher   = options["--removelauncher"]
     inspect_launchers = options["--inspectlaunchers"]
-    if filename_launcher is None and not inspect_launchers:
+    clear_launchers   = options["--clearlaunchers"]
+    if filename_launcher is None and\
+        not inspect_launchers and\
+        not clear_launchers:
         print("no launcher file specified")
         exit()
 
@@ -74,11 +78,16 @@ def main(options):
                             "favorites"
                         ]).decode("utf-8")
     launchers_current = eval(launchers_current)
-    if not inspect_launchers:
+    if not inspect_launchers and not clear_launchers:
         filepath_launcher = os.path.dirname(os.path.abspath(filename_launcher))
-        index_launcher_new =\
+        filename_launcher = os.path.split(filename_launcher)[-1]
+        launcher_applications =\
             [index for index, launcher in enumerate(launchers_current) if\
-            launcher.startswith("application://")][-1] + 1
+            launcher.startswith("application://")]
+        if launcher_applications:
+            index_launcher_new = launcher_applications[-1]
+        else:
+            index_launcher_new = 0
         new_launcher =\
             "application://" + filepath_launcher + "/" + filename_launcher
         if add_launcher:
@@ -106,11 +115,22 @@ def main(options):
                                 "favorites",
                                 str(launchers_current)
                             ])
-    else:
+    elif inspect_launchers:
         print("\ncurrent launchers:\n")
         for launcher in launchers_current:
             print(launcher)
         print("")
+    elif clear_launchers:
+        launchers_clear =\
+            [launcher for launcher in launchers_current if\
+            not launcher.startswith("application://")]
+        subprocess.Popen([
+                            "gsettings",
+                            "set",
+                            "com.canonical.Unity.Launcher",
+                            "favorites",
+                            str(launchers_clear)
+                        ])
 
 if __name__ == "__main__":
     options = docopt.docopt(__doc__)
