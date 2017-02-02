@@ -1,0 +1,24 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Chromium
+GenericName=Web Browser
+Comment=Access the Internet
+Exec=chromium-browser
+Terminal=false
+Icon=/usr/share/ucom/CERN-alias/icons/Chrome.svg
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/usr/bin/chromium-browser
+TargetEnvironment=Unity
+
+[NewIncognito Shortcut Group]
+Name=New Incognito Window
+Exec=/usr/bin/chromium-browser --incognito
+TargetEnvironment=Unity
