@@ -45,10 +45,11 @@ options:
     --removelauncher         remove launcher
     --inspectlaunchers       inspect current launchers
     --clearlaunchers         clear current launchers
+    --debugpassive           display commands without executing
 """
 
 name    = "set_Unity7_launcher"
-version = "2017-02-02T1938Z"
+version = "2017-02-13T1408Z"
 logo    = None
 
 import docopt
@@ -65,6 +66,7 @@ def main(options):
     remove_launcher   = options["--removelauncher"]
     inspect_launchers = options["--inspectlaunchers"]
     clear_launchers   = options["--clearlaunchers"]
+    debug_passive     = options["--debugpassive"]
     if filename_launcher is None and\
         not inspect_launchers and\
         not clear_launchers:
@@ -96,25 +98,33 @@ def main(options):
                     launcher = new_launcher
                 ))
                 launchers_current.insert(index_launcher_new, new_launcher)
-                subprocess.Popen([
-                                    "gsettings",
-                                    "set",
-                                    "com.canonical.Unity.Launcher",
-                                    "favorites",
-                                    str(launchers_current)
-                                ])
+                command_list = [
+                    "gsettings",
+                    "set",
+                    "com.canonical.Unity.Launcher",
+                    "favorites",
+                    str(launchers_current)
+                ]
+                if debug_passive:
+                    print(" ".join(command_list))
+                else:
+                    subprocess.Popen(command_list)
             else:
                 print("launcher already present")
                 exit()
         elif remove_launcher:
             launchers_current.remove(new_launcher)
-            subprocess.Popen([
-                                "gsettings",
-                                "set",
-                                "com.canonical.Unity.Launcher",
-                                "favorites",
-                                str(launchers_current)
-                            ])
+            command_list = [
+                "gsettings",
+                "set",
+                "com.canonical.Unity.Launcher",
+                "favorites",
+                str(launchers_current)
+            ]
+            if debug_passive:
+                print(" ".join(command_list))
+            else:
+                subprocess.Popen(command_list)
     elif inspect_launchers:
         print("\ncurrent launchers:\n")
         for launcher in launchers_current:
@@ -124,13 +134,17 @@ def main(options):
         launchers_clear =\
             [launcher for launcher in launchers_current if\
             not launcher.startswith("application://")]
-        subprocess.Popen([
-                            "gsettings",
-                            "set",
-                            "com.canonical.Unity.Launcher",
-                            "favorites",
-                            str(launchers_clear)
-                        ])
+        command_list = [
+            "gsettings",
+            "set",
+            "com.canonical.Unity.Launcher",
+            "favorites",
+            str(launchers_clear)
+        ]
+        if debug_passive:
+            print(" ".join(command_list))
+        else:
+            subprocess.Popen(command_list)
 
 if __name__ == "__main__":
     options = docopt.docopt(__doc__)

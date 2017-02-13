@@ -43,10 +43,11 @@ options:
     --command=TEXT           command
     --keys=TEXT              keys
     --name=TEXT              name
+    --debugpassive           display commands without executing
 """
 
 name    = "set_Ubuntu_shortkey"
-version = "2017-02-09T1943Z"
+version = "2017-02-13T1409Z"
 logo    = None
 
 import docopt
@@ -58,9 +59,10 @@ import time
 
 def main(options):
 
-    command = options["--command"]
-    keys    = options["--keys"]
-    name    = options["--name"]
+    command       = options["--command"]
+    keys          = options["--keys"]
+    name          = options["--name"]
+    debug_passive = options["--debugpassive"]
 
     if any([command, keys, name]) is None:
         print("insufficient options specified")
@@ -88,32 +90,39 @@ def main(options):
         address_shortkey_new
     )
 
-    subprocess.Popen([
+    command_list_1 = [
         "gsettings",
         "set",
         "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:" +\
             address_shortkey_new,
         "name",
         name
-    ])
-
-    subprocess.Popen([
+    ]
+    command_list_2 = [
         "gsettings",
         "set",
         "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:" +\
             address_shortkey_new,
         "command",
         command
-    ])
-
-    subprocess.Popen([
+    ]
+    command_list_3 = [
         "gsettings",
         "set",
         "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:" +\
             address_shortkey_new,
         "binding",
         keys
-    ])
+    ]
+
+    if debug_passive:
+        print(" ".join(command_list_1))
+        print(" ".join(command_list_2))
+        print(" ".join(command_list_3))
+    else:
+        subprocess.Popen(command_list_1)
+        subprocess.Popen(command_list_2)
+        subprocess.Popen(command_list_3)
 
 if __name__ == "__main__":
     options = docopt.docopt(__doc__)
