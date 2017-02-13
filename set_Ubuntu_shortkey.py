@@ -47,7 +47,7 @@ options:
 """
 
 name    = "set_Ubuntu_shortkey"
-version = "2017-02-13T1409Z"
+version = "2017-02-13T1511Z"
 logo    = None
 
 import docopt
@@ -78,7 +78,7 @@ def main(options):
                                "get",
                                "org.gnome.settings-daemon.plugins.media-keys",
                                "custom-keybindings"
-                           ]).decode("utf-8")
+                            ]).decode("utf-8")
     if shortkeys_current.strip() == "@as []":
         shortkeys_current = "[]"
     shortkeys_current     = eval(shortkeys_current)
