@@ -47,7 +47,7 @@ options:
 """
 
 name    = "set_Ubuntu_shortkey"
-version = "2017-02-13T1511Z"
+version = "2017-02-13T1847Z"
 logo    = None
 
 import docopt
@@ -64,7 +64,7 @@ def main(options):
     name          = options["--name"]
     debug_passive = options["--debugpassive"]
 
-    if any([command, keys, name]) is None:
+    if None in [command, keys, name]:
         print("insufficient options specified")
         exit()
 
