@@ -3,7 +3,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=ATLAS_meetings
-Exec=/usr/bin/google-chrome http://cern.ch/go/PM9N
+Exec=/usr/bin/chromium-browser http://cern.ch/go/PM9N
 Icon=/usr/share/ucom/CERN-alias/icons/ATLAS.svg
 Terminal=false
 Type=Application
