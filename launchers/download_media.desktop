@@ -3,7 +3,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=download_media
-Exec=python2 /usr/share/pyshared/youtube_dl_gui/__main__.py
+Exec=youtube-dl-gui
 Icon=/usr/share/ucom/CERN-alias/icons/arrow_down.svg
 Terminal=false
 Type=Application
