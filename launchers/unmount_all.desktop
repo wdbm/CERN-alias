@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Name=unmount_all
-Exec=truecrypt -d; veracrypt -d
+Exec=bash -c "truecrypt -d & veracrypt -d"
 Icon=/usr/share/ucom/CERN-alias/icons/lock.svg
 Terminal=false
 Type=Application
