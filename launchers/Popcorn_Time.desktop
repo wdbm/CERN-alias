@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=Popcorn_Time
-Exec=Popcorn_Time
+Exec=Popcorn-Time
 Icon=/usr/share/ucom/CERN-alias/icons/Popcorn_Time.svg
 Terminal=false
 Type=Application
