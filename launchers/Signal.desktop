@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Signal
+Exec=/usr/local/bin/signal-desktop
+Icon=/usr/share/ucom/CERN-alias/icons/Signal.svg
+Terminal=false
+X-MultipleArgs=false
+Type=Application
