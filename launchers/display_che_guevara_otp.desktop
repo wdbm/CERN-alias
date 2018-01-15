@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=display_che_guevara_otp
+Exec=/usr/local/bin/display_che_guevara_otp.py
+Terminal=true
+Type=Application
+Icon=/usr/share/ucom/CERN-alias/icons/Che.svg
