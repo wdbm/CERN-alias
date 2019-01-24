@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=play_tone_8_seconds
+Exec=/usr/bin/play -n -c1 synth 8 sine 500
+Icon=/usr/share/ucom/CERN-alias/icons/arrow_right.svg
+Terminal=false
+X-MultipleArgs=false
+Type=Application
