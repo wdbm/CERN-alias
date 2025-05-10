@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=text scaling factor 1
+Exec=bash -c "gsettings set org.gnome.desktop.interface text-scaling-factor 1"
+Icon=/usr/share/ucom/CERN-alias/icons/eye.svg
+Terminal=false
+Type=Application
